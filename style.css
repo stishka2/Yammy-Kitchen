@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-family: 'Cookie', cursive;
+    font-size: 2rem;
+}
+
+h5 {
+    font-weight: 600;
+    color: #df4545;
+}
+
+p {
+    font-weight: 300;
+}
+
+p.prize {
+    font-weight: 600;
+}
+
+/* Header css start */
+
+header {
+    background-color: rgba(128, 128, 128, 0.55);
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.nav-item {
+    font-weight: bold;
+    padding-right: 1.5rem;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: #df4545 !important;
+}
+
+.navbar .navbar-nav li a {
+    color: white !important;
+}
+
+/* Header css end */
+
+/* Title section start */
+
+#title-home, #title-about, #title-gallery, #title-menu {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#title-about {
+    background-image: url(assets/about-us-bg.jpg);
+}
+
+#title-home {
+    background-image: url(assets/start-bg.jpg);
+}
+
+#title-gallery {
+    background-image: url(assets/k-food3.jpg);
+}
+
+#title-menu {
+    background-image: url(assets/menu-bg.jpg);
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.display-1 {
+    font-weight: 700;
+    animation-name: slide-down;
+    animation-duration: 2s;
+    margin-top: 0%;
+}
+
+.subtitle-hero {
+    font-size: 3.5rem;
+}
+
+/* Title section end */
+
+/* Main css start */
+
+hr.divider {
+    width: 5rem;
+    border-top: 0.3rem solid #df4545;
+    margin-left: 0;
+}
+
+hr.divider-center {
+    width: 5rem;
+    border-top: 0.3rem solid #df4545;
+}
+
+.button-primary {
+    border: none;
+    padding: 1rem 2rem;
+    background-color: #df4545;
+    color: white;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.button-primary:hover {
+    background-color: #db5b5b;
+}
+
+.container-border {
+    border: 0.4rem double black;
+}
+
+.button-secondary {
+    border: 0.15rem solid black;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: black;
+    margin-top: 1rem;
+    font-weight: 700;
+    margin: 2rem 1rem;
+}
+
+.button-secondary:hover {
+    background-color: black;
+    color: white;
+}
+
+.img-fluid {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.img-circle {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.container-testimonials {
+    background-image: url(assets/testimonial-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.container-testimonials h2 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.container-testimonials h3 {
+    font-size: 2.5rem;
+}
+
+.container-testimonials p {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+/* Main css end */
+
+/* Footer css start */
+
+footer {
+    background-color: #df4545;
+    padding: 4rem 0 3rem 0;
+    margin-top: 3rem;
+    color: white;
+
+}
+
+footer h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer .col-sm {
+    margin-bottom: 2rem;
+}
+
+footer .fa-clock, .fa-map-marker-alt {
+    font-size: 3rem;
+}
+
+/* Footer css end */
+
+/* Bottom row css start */
+
+.bottom-row {
+    padding: 2rem;
+}
+
+.bottom-row i {
+    font-size: 2.3rem;
+    margin-right: 1rem;
+}
+
+.bottom-row a {
+    color: #212529;
+}
+
+.bottom-row a:hover {
+    color: #555;
+}
+
+/* Bottom row css end */
+
+/* Form css start */
+
+input, textarea {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    background-color: #ffffffbb;
+}
+
+form button .btn, .btn-primary, .mb-2 {
+    color: #df4545;
+    background-color: white;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    margin-top: 0.5rem;
+    border-radius: 0 !important;
+}
+
+form .btn-primary:hover {
+    background-color: #ffffffbb;
+    color: #df4545;
+}
+
+/* Form css end */
+
+/* Keyeframes css start */
+
+@keyframes slide-down {
+    from {
+        margin-top:-10%
+    }
+    to {
+        margin-top: 0%;
+    }
+}
+
+/* Keyeframes css end */
+
+/* Media queries start */
+
+@media (max-width: 991px) {
+    .img-main {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    } 
+    .display-1 {
+        font-size: 3rem !important;
+    }
+    .subtitle-hero {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .display-1 {
+        font-size: 3rem;
+    }
+    .subtitle-hero {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-testimonials h2 {
+        font-size: 3rem;
+    }
+    .display-1 {
+        font-size: 2rem !important;
+    }
+    .subtitle-hero {
+        font-size: 1.5rem;
+    }
+    .welcome {
+        height: 30rem;
+    }
+}
+
+/* Media queries end */
